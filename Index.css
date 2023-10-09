@@ -1,0 +1,48 @@
+body{
+   margin: 0;
+   font-family:'Times New Roman', Times, serif;
+   background-color:#f5e8ba;
+}
+.Main{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background-color:#1f2029;
+    border-radius:10px;
+    padding:30px;
+}
+h1{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top:30px;
+    height:2.5em;
+    width:250px;
+    padding-left:10px;
+}
+
+button{
+    margin-top:20px;
+    background-color:#ffa7a7;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #051602;
+}
+button:hover{
+    cursor:pointer;
+}
+
+#todolist{
+    color:white;
+    font-size:28px;  
+    margin-top:10px; 
+}
